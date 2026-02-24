@@ -123,6 +123,6 @@ log "   Commit: $COMMIT_MSG"
 log "   Tag: $TAG_NAME"
 log "   Time: $(date)"
 log ""
-log "🦞 Workspace synced to https://github.com/simonmarek/openclaw-workspace"
+log "🦞 Workspace synced to https://github.com/simonmarek/clawd-workspace"
 
 exit 0
