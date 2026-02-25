@@ -1,0 +1,32 @@
+# Security - Never commit sensitive files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+secrets/
+credentials/
+
+# Logs (may contain sensitive data)
+logs/*.log
+*.log
+
+# Database files (backup separately)
+*.db
+*.sqlite
+*.sqlite3
+
+# Node/npm
+node_modules/
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

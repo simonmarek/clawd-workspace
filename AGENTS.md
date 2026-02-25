@@ -117,6 +117,31 @@ Reactions are lightweight social signals. Humans use them constantly — they sa
 
 Skills provide your tools. When you need one, check its `SKILL.md`. Keep local notes (camera names, SSH details, voice preferences) in `TOOLS.md`.
 
+### 📝 Humanizer Skill (Auto-Apply)
+
+**Location:** `skills/humanizer/SKILL.md` (based on [blader/humanizer](https://github.com/blader/humanizer))
+
+**ALWAYS run the humanizer skill on any user-facing prose >3 sentences:**
+- Documentation, blog posts, marketing copy
+- Emails to customers/users
+- UI text, error messages, notifications
+- Social media posts, announcements
+
+**Red flags to catch:**
+- Words: delve, crucial, underscore, testament, vibrant, landscape
+- Phrases: "at the end of the day," "it's worth noting"
+- Em dashes (—) used more than once per paragraph
+- Groups of exactly 3 items
+- "Not only X but also Y" constructions
+- "Experts say" without naming the expert
+
+**Before shipping, verify:**
+- [ ] Varied sentence lengths (mix short and long)
+- [ ] At least one concrete detail
+- [ ] Max one em dash per paragraph
+- [ ] Direct "is/are/has" instead of "serves as"
+- [ ] An actual opinion or reaction
+
 **🎭 Voice Storytelling:** If you have `sag` (ElevenLabs TTS), use voice for stories, movie summaries, and "storytime" moments! Way more engaging than walls of text. Surprise people with funny voices.
 
 **📝 Platform Formatting:**
